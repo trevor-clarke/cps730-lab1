@@ -6,15 +6,25 @@ This application is a simple web-based TODO app, to help you manage your daily t
 Project Background
 ------------------
 
-Put information about the project here. 
+Exactly what it says on the title, the TODO app lists and displays your tasks and appointments, ready to be added and checked at a moment's notice, adding the checked tasks under the completed tasks title.
+ 
 
 
 Project Contributors
 --------------------
 
 Contributors to this project include the group memebers from CPS730's lab:
-   Trevor Clarke
-   ... Add names
+   
+   Trevor Clarke - 500909637
+   
+   Polat Ilhan Tarim - 500975154
+   
+   Qiwei Wu - 500891903
+   
+   Hamdan Khan - 500900704
+   
+   Yahya Muhammad - 500968266
+   
 
 .. note::
 
