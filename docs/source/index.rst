@@ -14,6 +14,7 @@ Project Contributors
 
 Contributors to this project include the group memebers from CPS730's lab:
    Trevor Clarke
+   Hamdan Khan
    ... Add names
 
 .. note::
