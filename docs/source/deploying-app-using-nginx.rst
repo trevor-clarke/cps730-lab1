@@ -4,31 +4,30 @@ Deploying App Using Nginx
 Installing and running nginx typically involves the following steps
 --------------------------------------------------------------------
 
-*  1. Install nginx
-   * On Ubuntu or Debian ``sudo apt-get install nginx``
-   * On CentOS or Fedora ``sudo yum install nginx``
-   * On macOS ``brew install nginx``
-   
-*  2. Once nginx is installed, you can start the nginx service using the following command
-   * On Ubuntu or Debian ``sudo systemctl start nginx``
-   * On CentOS or Fedora ``sudo systemctl start nginx``
-   * On macOS ``sudo nginx``
-   
-*  3. To test if nginx is running, you can check the status of the nginx service using the following command
-   * On Ubuntu or Debian ``sudo systemctl status nginx``
-   * On CentOS or Fedora ``sudo systemctl status nginx``
-   * On macOS ``sudo nginx -t``
-   
-   Once nginx is running, you can access its default web page by typing the IP address of your server in your web browser. If you're using a local server, you can access the default page by typing :file:`http://localhost/` or :file:`http://127.0.0.1/` in your web browser.
+*  Install nginx
+  * On Ubuntu or Debian ``sudo apt-get install nginx``
+  * On CentOS or Fedora ``sudo yum install nginx``
+  * On macOS ``brew install nginx``
+  
+*  Once nginx is installed, you can start the nginx service using the following command
+  * On Ubuntu or Debian ``sudo systemctl start nginx``
+  * On CentOS or Fedora ``sudo systemctl start nginx``
+  * On macOS ``sudo nginx``
+  
+*  To test if nginx is running, you can check the status of the nginx service using the following command
+  * On Ubuntu or Debian ``sudo systemctl status nginx``
+  * On CentOS or Fedora ``sudo systemctl status nginx``
+  * On macOS ``sudo nginx -t``
+  * Once nginx is running, you can access its default web page by typing the IP address of your server in your web browser. If you're using a local server, you can access the default page by typing :file:`http://localhost/` or :file:`http://127.0.0.1/` in your web browser.
 
-*  4. To configure nginx to serve your own web content, you'll need to modify its configuration file. The location of this file can vary depending on your system, but it's typically located at :file:`/etc/nginx/nginx.conf`. You can use a text editor to modify this file and specify the location of your web content.
+*  To configure nginx to serve your own web content, you'll need to modify its configuration file. The location of this file can vary depending on your system, but it's typically located at :file:`/etc/nginx/nginx.conf`. You can use a text editor to modify this file and specify the location of your web content.
 
-*  5. After modifying the configuration file, you'll need to reload the nginx service to apply the changes. You can do this using the following command
-   * On Ubuntu or Debian ``sudo systemctl reload nginx``
-   * On CentOS or Fedora ``sudo systemctl reload nginx``
-   * On macOS ``sudo nginx -s reload``
-   
-*  6. Once nginx is configured to serve your web content, you can access it by typing the IP address of your server in your web browser. If you're using a local server, you can access it by typing :file:`http://localhost/`` or :file:`http://127.0.0.1/`` in your web browser.
+*  After modifying the configuration file, you'll need to reload the nginx service to apply the changes. You can do this using the following command
+  * On Ubuntu or Debian ``sudo systemctl reload nginx``
+  * On CentOS or Fedora ``sudo systemctl reload nginx``
+  * On macOS ``sudo nginx -s reload``
+
+*  Once nginx is configured to serve your web content, you can access it by typing the IP address of your server in your web browser. If you're using a local server, you can access it by typing :file:`http://localhost/`` or :file:`http://127.0.0.1/`` in your web browser.
 
 To use Nginx with Docker, you first need to create a Dockerfile to specify the container configuration. In this file, you can specify the base image to use, copy any necessary files to the container, and set the necessary environment variables.
 
