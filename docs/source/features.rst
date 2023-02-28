@@ -18,14 +18,17 @@ The TODO App currently holds 3 basic components:
 Here are the screenshots of our todo app interface:
 
 Users are able to enter the name of new tasks in the text box and click the "Add Task" button.
+
 ..  image:: https://user-images.githubusercontent.com/126193839/221729077-3f479b49-6ba3-4a4c-be4c-e340e460d611.png
  
 
 A user use the checkboxes in front of task names to select multiple tasks, and press the completed button to mark them as done.
+
 ..  image:: https://user-images.githubusercontent.com/126193839/221730966-573c4764-3f29-4054-a9ca-476a011de34d.png
 
 
 They then can see the completed task list below.
+
 ..  image:: https://user-images.githubusercontent.com/126193839/221730893-969a00c1-4542-493a-9d5e-b655387bd32f.png
 
 .. autosummary::
