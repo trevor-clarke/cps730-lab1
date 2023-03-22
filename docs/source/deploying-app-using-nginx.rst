@@ -4,6 +4,28 @@ Deploying App Using Nginx
 Installing and running nginx typically involves the following steps
 --------------------------------------------------------------------
 
+On Windows
+-----------
+To install and run Nginx on Windows, follow these steps:
+
+*  Download the Nginx Windows version from the official website (https://nginx.org/en/download.html). Choose the version that matches your operating system architecture (32-bit or 64-bit).
+
+*  Extract the downloaded file to a directory on your computer. You can use a program like 7-Zip to extract the files.
+
+* Open a command prompt window as an administrator. To do this, right-click on the Command Prompt shortcut and select "Run as administrator."
+
+* Navigate to the directory where you extracted Nginx using the "cd" command. For example, if you extracted the files to "C:\nginx", you would enter "cd C:\nginx".
+
+*  Run the "nginx" executable by typing "nginx.exe" in the command prompt window and pressing Enter. This will start the Nginx server.
+
+*  Open a web browser and enter "http://localhost" in the address bar. If Nginx is running correctly, you should see the Nginx welcome page.
+
+*  To stop the Nginx server, open a new command prompt window and navigate to the Nginx directory. Then type "nginx.exe -s stop" and press Enter.
+
+
+On Linux/Unix
+--------------
+
 *  Install nginx
   * On Ubuntu or Debian ``sudo apt-get install nginx``
   * On CentOS or Fedora ``sudo yum install nginx``
